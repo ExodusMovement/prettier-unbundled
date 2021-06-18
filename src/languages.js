@@ -6,8 +6,6 @@ module.exports = [
   require("./language-js"),
   // CSS
   require("./language-css"),
-  // Markdown
-  require("./language-markdown"),
   // HTML
   require("./language-html"),
   // YAML
