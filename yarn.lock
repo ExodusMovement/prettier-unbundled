@@ -35,42 +35,6 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.14.4.tgz#a5c560d6db6cd8e6ed342368dea8039232cbab18"
   integrity sha512-ArliyUsWDUqEGfWcmzpGUzNfLxTdTp6WU4IuP6QFSp9gGfWS6boxFCkJSJ/L4+RG8z/FnIU3WxCk6hPL9SSWeA==
 
-"@glimmer/env@0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@glimmer/env/-/env-0.1.7.tgz#fd2d2b55a9029c6b37a6c935e8c8871ae70dfa07"
-  integrity sha1-/S0rVakCnGs3psk16MiHGucN+gc=
-
-"@glimmer/interfaces@0.79.3":
-  version "0.79.3"
-  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.79.3.tgz#4e0a3ff9cf0b60bdab1a4d420f641ab540d4fc85"
-  integrity sha512-EFiNKwehbxm1xRsfnNu/5nu8Rw+0IYINL/Hciwl/28T8an7FOxftpy/iXXSaWvIsnPyBHqH1ufwsKYY6KXyNzg==
-  dependencies:
-    "@simple-dom/interface" "^1.4.0"
-
-"@glimmer/syntax@0.79.3":
-  version "0.79.3"
-  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.79.3.tgz#5beadd53494d0f199b83f016af90fa28c3ecaa8c"
-  integrity sha512-IERTn/mqRk0pZnddAnYjGUV4e93rRf5scY0dYQl2EFvBHFaOdFQPe3fhSCozx0hZpagg5LCOsbRgsMwL9IT9fw==
-  dependencies:
-    "@glimmer/interfaces" "0.79.3"
-    "@glimmer/util" "0.79.3"
-    "@handlebars/parser" "~2.0.0"
-    simple-html-tokenizer "^0.5.10"
-
-"@glimmer/util@0.79.3":
-  version "0.79.3"
-  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.79.3.tgz#a54f0383d8e83ca43625e289fe1df6c72ccfb938"
-  integrity sha512-SVHHA6blGzIM6ZMJErqvzqsapYEsN5hXyobJl+lQAAzBKvaExc7VHQfs10267HxA9WlMNLuu83+tYOu+UR67hA==
-  dependencies:
-    "@glimmer/env" "0.1.7"
-    "@glimmer/interfaces" "0.79.3"
-    "@simple-dom/interface" "^1.4.0"
-
-"@handlebars/parser@~2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@handlebars/parser/-/parser-2.0.0.tgz#5e8b7298f31ff8f7b260e6b7363c7e9ceed7d9c5"
-  integrity sha512-EP9uEDZv/L5Qh9IWuMUGJRfwhXJ4h1dqKTT4/3+tY0eu7sPis7xh23j61SYUnNF4vqCQvvUXpDo9Bh/+q1zASA==
-
 "@iarna/toml@2.2.5":
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
@@ -96,11 +60,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
-
-"@simple-dom/interface@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@simple-dom/interface/-/interface-1.4.0.tgz#e8feea579232017f89b0138e2726facda6fbb71f"
-  integrity sha512-l5qumKFWU0S+4ZzMaLXFU8tQZsicHEMEyAxI5kDFGhJsRqDwe0a7/iPA/GdxlGyDKseQQAgIz5kzU7eXTrlSpA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -541,11 +500,6 @@ html-tag-names@1.1.5:
   resolved "https://registry.yarnpkg.com/html-tag-names/-/html-tag-names-1.1.5.tgz#f537420c16769511283f8ae1681785fbc89ee0a9"
   integrity sha512-aI5tKwNTBzOZApHIynaAwecLBv8TlZTEy/P4Sj2SzzAhBrGuI8yGZ0UIXVPQzOHGS+to2mjb04iy6VWt/8+d8A==
 
-html-void-elements@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-1.0.5.tgz#ce9159494e86d95e45795b166c2021c2cfca4483"
-  integrity sha512-uE/TxKuyNIcx44cIWnjr/rfIATDH7ZaOMmstu0CwhFG1Dunhlp4OC6/NMbhiwoq5BpW0ubi303qnEk/PZj614w==
-
 ignore@4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
@@ -685,7 +639,7 @@ leven@^2.1.0:
   resolved "https://registry.yarnpkg.com/leven/-/leven-2.1.0.tgz#c2e7a9f772094dee9d34202ae8acce4687875580"
   integrity sha1-wuep93IJTe6dNCAq6KzORoeHVYA=
 
-lines-and-columns@1.1.6, lines-and-columns@^1.1.6:
+lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
@@ -991,11 +945,6 @@ sigmund@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha1-P/IfGYytIXX587eBhT/ZTQ0ZtZA=
-
-simple-html-tokenizer@^0.5.10:
-  version "0.5.11"
-  resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.5.11.tgz#4c5186083c164ba22a7b477b7687ac056ad6b1d9"
-  integrity sha512-C2WEK/Z3HoSFbYq8tI7ni3eOo/NneSPRoPpcM7WdLjFOArFuyXEjAoCdOC3DgMfRyziZQ1hCNR4mrNdWEvD0og==
 
 slash@^3.0.0:
   version "3.0.0"

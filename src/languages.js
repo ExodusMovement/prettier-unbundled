@@ -6,8 +6,6 @@ module.exports = [
   require("./language-js"),
   // CSS
   require("./language-css"),
-  // Handlebars
-  require("./language-handlebars"),
   // GraphQL
   require("./language-graphql"),
   // Markdown
